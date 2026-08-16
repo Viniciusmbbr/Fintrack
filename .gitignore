@@ -1,0 +1,29 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente — nunca commitar o .env real
+.env
+
+# Banco SQLite local
+prisma/dev.db
+prisma/*.db-journal
+prisma/*.db-shm
+prisma/*.db-wal
+
+# Prisma engine binaries
+node_modules/.prisma/
+node_modules/.cache/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistemas operacionais
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
